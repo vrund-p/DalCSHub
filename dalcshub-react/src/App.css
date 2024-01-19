@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.paper {
+  width: 40%; /* Default width for desktop */
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .paper {
+    width: 80%; /* Width for mobile */
+  }
+}
+
+* {
+  font-family: "Verdana", "Geneva", sans-serif;
+}

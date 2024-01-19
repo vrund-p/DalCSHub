@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Verdana", "Geneva", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.contactbox {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50% 50%;
+}
+
+.contact1 {
+  text-align: left;
+  margin: 3%;
+  box-shadow: 10px 10px 20px gray;
+}
+
+.contact2 {
+  text-align: center;
+  margin: 3%;
+  box-shadow: 10px 10px 20px gray;
+}
+
+@media screen and (max-width: 685px) {
+  .contactbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+}
